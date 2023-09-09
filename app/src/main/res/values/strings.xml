@@ -62,26 +62,55 @@
 
     <string-array name="title_story">
 
-        <item>Build for Muscles</item>
-        <item>Replace Coffee with match Green Tea</item>
-        <item>Just Keep Moving</item>
+        <item>Build More Muscle</item>
+        <item>Replace Coffee with Matcha Green Tea</item>
+        <item> Just Keep Moving</item>
         <item>Stop Counting Calories</item>
-        <item>Pick up KettleBell</item>
+        <item> Pick Up a Kettlebell</item>
         <item>Do Yoga</item>
-        <item>Go Intense</item>
+        <item>Get Intense</item>
+        <item> Stop Sleeping In</item>
+        <item>Make One Meal a Day Vegan</item>
+        <item>Go Green</item>
+        <item>Enjoy Some Lemon Water</item>
+        <item>Set Clear Goals </item>
+        <item> Fuel Up Before Your Workout</item>
+        <item> And Fuel Up After</item>
+        <item>Jump </item>
+        <item>Get At Least 7 Hours Sleep</item>
+        <item>Get Over the Crunch </item>
+        <item>Drop the Wheat</item>
+        <item>Change Up Your Workout</item>
+        <item>Work Your Abs 3 Days a Week</item>
 
 
     </string-array>
 
     <string-array name="title_description">
 
-        <item>Build for Muscles - Sairaj Barve</item>
-        <item>Replace Coffee with match Green Tea - Sairaj Barve</item>
-        <item>Just Keep Moving - Sairaj Barve</item>
-        <item>Stop Counting Calories - Sairaj Barve</item>
-        <item>Pick up KettleBell - Sairaj Barve</item>
-        <item>Do Yoga - Sairaj Barve</item>
-        <item>Go Intense - Sairaj Barve</item>
+        <item>Build More Muscle:-\n\n1.This one may sound counter-intuitive at first, but building more muscle mass is one of the best ways to enhance your metabolism. A higher metabolic rate means that your body can burn more fat, including fat around your waistline. This is an important step in getting 6 pack results, because no matter how many crunches you do, you won’t see all your hard work without burning off some fat. So hit the weights!</item>
+        <item>Replace Coffee with Matcha Green Tea:-\n\n2. Consuming thermogenic foods, like those that contain caffeine, is another effective way to boost metabolism. Although coffee will do it, matcha green tea is even better for your health, and it doesn’t come with the jitters. Try it here – Green Foods Matcha Green Tea.
+</item>
+        <item> Just Keep Moving:-\n\n3. Research shows that even the smallest movements, like fidgeting or tapping your toes, can actually burn a lot of calories. And burning more calories is a critical step to seeing 6 pack abs. So keep moving throughout your day, and try not to sit for too long.
+
+ </item>
+        <item>Stop Counting Calories:-\n\n4.I’ve never been a big fan of counting calories. It’s misleading, and it allows you to ignore the nutritional content of your food. Rather than counting calories, make it your goal to eat only whole foods, and remove the processed and packages stuff. </item>
+        <item>Pick Up a Kettlebell:-\n\n5. Kettlebells are a great alternative to dumbbells, and they can be used for a variety of intense, full body exercises that are great for getting your abs and core into shape. (See my 15 Minute Killer Kettlebell workout here) </item>
+        <item> Do Yoga:-\n\n6. You may be surprised, but yoga is a great way to get 6 pack abs. Yoga involves a lot of balance and flexibility training, both of which require muscles that you normally don’t work out. And of all the muscles engaged, your abdominal and core muscles are doing a lot of the work. See better 6 pack results by adding a little yoga into your routine. If you’re a beginner, check out this Gaiam Yoga for Beginners Kit . </item>
+        <item>Get Intense:-\n\n7. Total body fitness is really about quality over quantity. Spending hours in the gym or getting in a long treadmill workout simply won’t cut it. For real results, you need to get intense. Aim for shorter intervals of more intense exercise, no matter what you’re doing. (An excellent resource is our 5 Day Total Body Toning Workout). </item>
+        <item>Stop Sleeping In:-\n\n8. If you want to achieve real 6 pack success, you’ve got to get motivated. Hitting the snooze button is not the best way to start your day. Get up, and hammer out that morning workout to start things off on the right foot.</item>
+        <item>Make One Meal a Day Vegan:-\n\n9. Reducing your intake of animal protein can help improve your health in a number of ways, according to new research. In addition to reducing cholesterol and getting your blood sugar levels in check, you’ll also reduce some of that body fat. Try going vegan for one meal a day. </item>
+        <item>Go Green:-\n\n 10. An easy way to add more nutrition to your diet is to invest in a plant-based supplement like Amazing Grass Green SuperFood Powder. Not only will you boost your metabolism and burn more fat, you’ll also feel more energized to knock out those ab workouts.</item>
+        <item>Enjoy Some Lemon Water:-\n\n 11.If you’re looking for a natural daily detox, simple lemon water works really well. Enjoy it hot in the mornings, or take it with you on the go. You’ll significantly improve your ability to lose weight.</item>
+        <item>Set Clear Goals :-\n\n 12. Whether your goal is stronger abs or just a flatter waistline, you have to set some clear goals. Write your goals down, and come up with some specific ways to achieve them. And make sure your goals are practical!</item>
+        <item> Fuel Up Before Your Workout:-\n\n 13.Giving your body the fuel it needs is key to maximizing your workouts. A pre-workout shake is a great way to get started, especially one that includes time released protein to keep fueling your muscles. Try Combat Powder to get great results.</item>
+        <item> And Fuel Up After:- \n\n 14.Make sure you follow up every workout with a solid serving of protein, healthy carbs, and vitamin-rich food. This is necessary in order to get the most out of your efforts, and improve your recovery. </item>
+        <item>Jump :-\n\n 15.  Jump training, also known as plyometrics, is a great way to engage your entire body and really challenge your core and abdominal muscles. Adding a little jump rope alone can go a long way. (This Jump Rope Interval Training Routine will kick your butt and really target fat loss)</item>
+        <item>Get At Least 7 Hours Sleep:-\n\n 16. Getting a good night’s sleep can improve literally every aspect of your life, including your fitness and weight loss success. One night of poor sleep can lead to unwanted hunger spikes, nasty cravings, and lower energy. If you need some help sleeping, try Natrol Melatonin.</item>
+        <item>Get Over the Crunch :-\n\n 17. Real 6 pack abs are not made by crunches alone. To see serious results, you’ve got to do more than just simple crunches. Grab a stability ball, a bosu ball, or get off the ground with a hanging leg raise. Whatever you do, keep pushing yourself.</item>
+        <item>Drop the Wheat:-\n\n 18. There’s a lot of evidence out there to suggest that removing processed wheat from your diet can significantly improve your fat burning results, and that means a leaner, more toned, and more visible 6 pack. Give it a try, and go for less processed carbs like quinoa.</item>
+        <item>Change Up Your Workout:-\n\n 19. Constantly changing up your workout is crucial to keep seeing results, whether your goal is a 6 pack or a more toned physique overall. I recommend adding a new exercise to your workout routine at least once a week, and make sure you make sure serious changes every 6-8 weeks.</item>
+        <item>Work Your Abs 3 Days a Week:-\n\n 20.There are different philosophies to this, but I find the best approach to exercising your abs is to do so a few days a week, in shorter workouts that are combined with total body workouts. Try spending about 20 minutes on your abs and core 3 days a week – you may notice a big difference. This Total Ab Workout in 30 Minutes is a great place to start.</item>
 
 
     </string-array>
