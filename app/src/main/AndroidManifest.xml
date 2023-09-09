@@ -12,7 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FitnessApp"
         tools:targetApi="31">
+        <activity
+            android:name=".ThirdActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".FoodActivityDetails"
             android:exported="false" />
@@ -33,7 +50,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".SplashScreen"
             android:exported="true">
@@ -43,7 +60,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".MyFirebaseMessagingService"
+
+        <service
+            android:name=".MyFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />

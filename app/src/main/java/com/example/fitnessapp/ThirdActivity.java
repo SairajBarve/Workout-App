@@ -3,6 +3,7 @@ package com.example.fitnessapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
@@ -125,6 +126,8 @@ public class ThirdActivity extends AppCompatActivity {
             @Override
             public void onFinish() {
                 int newvalue = Integer.valueOf(buttonvalue)+1;
+                MediaPlayer music = MediaPlayer.create(ThirdActivity.this, R.raw.alarm);
+                music.start();
                 if(newvalue <= 7) {
                     Intent intent = new Intent(ThirdActivity.this, ThirdActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);

@@ -13,11 +13,23 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/PrimaryDark"
+        android:gravity="end"
         android:textAlignment="textEnd"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
-        app:title="Fitness App"
-        app:titleTextColor="#fff"
-        android:gravity="end" />
+        app:title="FitPro"
+        app:titleTextColor="#fff">
+
+        <android.widget.Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="200dp"
+            android:text="Log out"
+            android:textColor="#fff"
+            android:background="@color/PrimaryDark"/>
+
+    </androidx.appcompat.widget.Toolbar>
 
     <ScrollView
         android:layout_width="fill_parent"
@@ -32,8 +44,7 @@
             android:orientation="vertical">
 
 
-
-                <LinearLayout
+            <LinearLayout
                     android:onClick="beforeage18"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -61,7 +72,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
                                 android:padding="5.0dp"
-                                android:text="Before Age 18"
+                                android:text="General Exercise for All"
                                 android:textColor="#ff000000"
                                 android:textSize="20.0dp"
                                 android:textStyle="bold"/>
@@ -126,14 +137,107 @@
 
                 </LinearLayout>
 
+            <LinearLayout
+                android:onClick="afterage18"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="150.0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
                 <LinearLayout
-                    android:onClick="afterage18"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10.0dp"
-                    android:layout_marginTop="15.0dp"
-                    android:background="@drawable/backgroundcrop"
+                    android:layout_weight="1.0"
                     android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:padding="5.0dp"
+                        android:text="Exercise for Back"
+                        android:textColor="#ff000000"
+                        android:textSize="20.0dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:padding="5.0dp"
+                        android:text="Days 60"
+                        android:textSize="20.0dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5.0dp"
+                        android:text="Every day 15 MIN"
+                        android:textColor="#ffff5722"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0">
+
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/exersice_8"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10.0dp"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/startyoga2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:background="@drawable/btn"
+                android:text="Get Started"
+                android:textAllCaps="true"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:onClick="chest"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
 
 
                 <LinearLayout
@@ -154,7 +258,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="monospace"
                             android:padding="5.0dp"
-                            android:text="After Age 18"
+                            android:text="Exercise for Chest"
                             android:textColor="#ff000000"
                             android:textSize="20.0dp"
                             android:textStyle="bold"/>
@@ -187,7 +291,7 @@
                         <pl.droidsonroids.gif.GifImageView
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/exersice_8"/>
+                            android:src="@drawable/exersice_10"/>
 
                     </LinearLayout>
 
@@ -208,7 +312,7 @@
 
 
                 <Button
-                    android:id="@+id/startyoga2"
+                    android:id="@+id/startyoga3"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10.0dp"
@@ -219,81 +323,81 @@
 
             </LinearLayout>
 
+            <LinearLayout
+                android:onClick="food"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
+
+
                 <LinearLayout
-                    android:onClick="food"
+                    android:layout_width="fill_parent"
+                    android:layout_height="150.0dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10.0dp"
-                    android:layout_marginTop="15.0dp"
-                    android:background="@drawable/backgroundcrop"
+                    android:layout_weight="1.0"
                     android:orientation="vertical">
 
 
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="150.0dp"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:padding="5.0dp"
+                        android:text="Nutrition and Tips"
+                        android:textColor="#ff000000"
+                        android:textSize="20.0dp"
+                        android:textStyle="bold"/>
 
-                    <LinearLayout
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:padding="5.0dp"
+                        android:text="Suggestion for free"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0">
+
+
+                    <ImageView
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1.0"
-                        android:orientation="vertical">
+                        android:src="@drawable/food"/>
 
+                </LinearLayout>
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="monospace"
-                            android:padding="5.0dp"
-                            android:text="Nutrition and Tips"
-                            android:textColor="#ff000000"
-                            android:textSize="20.0dp"
-                            android:textStyle="bold"/>
-
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="serif"
-                            android:padding="5.0dp"
-                            android:text="Suggestion for free"
-                            android:textStyle="bold"/>
-                    
-                    </LinearLayout>
-                        
-                        
                     <LinearLayout
-                        android:layout_width="fill_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2.0">
-
+                        android:layout_weight="0.0">
 
                         <ImageView
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/food"/>
+                            android:padding="10.0dp"
+                            android:src="@drawable/baseline_keyboard_arrow_right_24"/>
 
-                    </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="0.0">
-
-                            <ImageView
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:padding="10.0dp"
-                                android:src="@drawable/baseline_keyboard_arrow_right_24"/>
-
-                        </LinearLayout>
-                        
                     </LinearLayout>
 
                 </LinearLayout>
+
+            </LinearLayout>
 
 
                 <LinearLayout

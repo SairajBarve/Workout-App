@@ -22,21 +22,10 @@ public class SplashScreen extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
 
 
-        ImageView imageView = findViewById(R.id.appsplash);
-        up = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.up);
-        imageView.setAnimation(up);
-
-
-
-        TextView textView = findViewById(R.id.appname);
-        down = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.down);
-        textView.setAnimation(down);
-
-
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                startActivity(new Intent(getApplicationContext(), SignUpActivity.class));
                 finish();
             }
         },3500);

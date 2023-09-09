@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class ThirdActivity2 extends AppCompatActivity {
+public class ThirdActivity3 extends AppCompatActivity {
 
     String buttonvalue;
     Button startBtn;
@@ -126,17 +126,17 @@ public class ThirdActivity2 extends AppCompatActivity {
             @Override
             public void onFinish() {
                 int newvalue = Integer.valueOf(buttonvalue)+1;
-                MediaPlayer music = MediaPlayer.create(ThirdActivity2.this, R.raw.alarm);
+                MediaPlayer music = MediaPlayer.create(ThirdActivity3.this, R.raw.alarm);
                 music.start();
                 if(newvalue <= 7) {
-                    Intent intent = new Intent(ThirdActivity2.this, ThirdActivity.class);
+                    Intent intent = new Intent(ThirdActivity3.this, ThirdActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     intent.putExtra("value", String.valueOf(newvalue));
                     startActivity(intent);
                 }
                 else {
                     newvalue = 1;
-                    Intent intent = new Intent(ThirdActivity2.this, ThirdActivity.class);
+                    Intent intent = new Intent(ThirdActivity3.this, ThirdActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     intent.putExtra("value", String.valueOf(newvalue));
                     startActivity(intent);
